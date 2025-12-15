@@ -32,3 +32,10 @@ st.image('k-pop demon hunters wordcloud.png', use_container_width=True)
 3) 소재
 
 '''
+
+st.divider()
+
+st.write('\n\n')
+st.write('#### 2. k팝 데몬 헌터스 관련 뉴스 단어 네트워크 시각화')
+st.image('network1.png', use_container_width=True)
+st.image('network2.png', use_container_width=True)

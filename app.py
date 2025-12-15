@@ -46,3 +46,8 @@ st.write('\n\n')
 st.write('#### 2. k팝 데몬 헌터스 관련 뉴스 단어 네트워크 시각화')
 st.image('network1.png', use_container_width=True)
 st.image('network2.png', use_container_width=True)
+
+ballon_snow_button = st.button('풍선과 눈을 내려 보세요')
+if ballon_snow_button:
+    st.balloons()
+    st.snow()

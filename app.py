@@ -46,3 +46,12 @@ ballon_snow_button = st.button('풍선과 눈을 내려 보세요')
 if ballon_snow_button:
     st.balloons()
     st.snow()
+
+text = st.text_input('여기에 텍스트를 입력하세요')
+st.write(f'입력된 텍스트: {text}')
+
+number = st.number_input('여기에 숫자를 입력하세요')
+st.write(f'입력된 숫자: {number}')
+
+date = st.date_input('날짜를 선택하세요')
+st.write(f'선택된 날짜: {date}')

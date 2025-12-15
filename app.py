@@ -21,6 +21,13 @@ st.write('### K팝 데몬 헌터스 팬덤 형성의 핵심 요인 분석')
 
 st.write('\n\n')
 
+'''
+[k팝 데몬 헌터스 알아보기]
+'''
+st.link_button("k팝 데몬 헌터스(나무위키)", "https://namu.wiki/w/%EC%BC%80%EC%9D%B4%ED%8C%9D%20%EB%8D%B0%EB%AA%AC%20%ED%97%8C%ED%84%B0%EC%8A%A4")
+
+st.write('\n\n')
+
 st.write('#### 1. k팝 데몬 헌터스 관련 뉴스 단어 워드클라우드')
 st.image('k-pop demon hunters wordcloud.png', use_container_width=True)
 '''
